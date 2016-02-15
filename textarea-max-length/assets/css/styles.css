@@ -1,0 +1,29 @@
+html {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  background-color: #EEE;
+}
+
+
+.container{
+  position: fixed;
+  top: 10em;
+  left: 10em;
+  bottom: 10em;
+  right: 10em;
+
+}
+
+.text-label {
+  font-size: 2em;
+  color: #778899;
+  display: block;
+  padding-bottom: .5em;
+}
+
+#text-area {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  width: 300px;
+  height: 150px;
+}
