@@ -1,0 +1,58 @@
+html {
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: 'Merriweather', serif;
+  color: #b8860b;
+}
+
+p {
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: right;
+  color: #008b8b;
+  padding-top: 1em;
+}
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #C0C0C0;
+  display: none; /* default is none*/
+}
+
+
+.modal-container.showing { /*when the modal is displayed*/
+  display: block;
+}
+
+.modal {
+  position: fixed;
+  top: 10em;
+  left: 15em;
+  bottom: 10em;
+  right: 10em;
+  width: 50%;
+  background: #EEE;
+  border: 1px solid #AAA;
+  padding: 2em;
+}
+
+.modal-x {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  border-radius: 2em;
+  background: #EEE;
+  border: 1px solid #AAA;
+}
+
+.button {
+  position: static;;
+  width: 10em;
+  height: 3em;
+}
