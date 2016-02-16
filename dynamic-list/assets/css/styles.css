@@ -1,0 +1,37 @@
+html {
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #EEE;
+}
+
+.container {
+  position: absolute;
+  top: 1em;
+  right: 20%;
+  left: 30%;
+  width: 500px;
+  height: 100%;
+  border: 1px solid #4682b4;
+  background-color: #FFF;
+}
+
+h1 {
+  width: 100%;
+  color: #EEE;
+  background-color: #4682b4;
+}
+
+label{
+  display: block;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 1em;
+}
+
+input{
+  margin-left: 2em;
+  width: 85%;
+  height: 100%;
+
+}
